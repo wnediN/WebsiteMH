@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Over Muscle</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50 text-gray-800">
+
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-blue-700">Mind Over Muscle</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#resources" class="hover:text-blue-500">Resources</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mt-10">
+    <section class="text-center px-6">
+      <h2 class="text-4xl font-semibold mb-4">Supporting Mental Health in Athletes</h2>
+      <p class="text-lg max-w-2xl mx-auto">Athletes are strong — but mental health matters just as much as physical strength. Let's break the stigma and build a community that lifts each other up.</p>
+      <a href="#resources" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-700">Explore Resources</a>
+    </section>
+
+    <section id="about" class="mt-20 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">About This Project</h3>
+        <p class="text-md">Mind Over Muscle is a student-led initiative to raise awareness about mental health challenges faced by athletes. Whether you're dealing with pressure, anxiety, burnout, or just need someone to talk to — you're not alone.</p>
+      </div>
+    </section>
+
+    <section id="resources" class="mt-20 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-center mb-8">Helpful Resources</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl">
+            <h4 class="font-semibold text-lg mb-2">Coping Strategies</h4>
+            <p>Learn techniques for managing stress, anxiety, and pressure on and off the field.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl">
+            <h4 class="font-semibold text-lg mb-2">Stories from Athletes</h4>
+            <p>Read real experiences from athletes who have faced mental health struggles and triumphed.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl">
+            <h4 class="font-semibold text-lg mb-2">Get Support</h4>
+            <p>Find hotlines, professional help, and peer support communities that understand your journey.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mt-20 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
+        <p class="text-md">Have ideas, questions, or want to collaborate? Reach out at <a href="mailto:youremail@example.com" class="text-blue-600 hover:underline">youremail@example.com</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-20 py-6 bg-white shadow-inner text-center text-gray-500">
+    <p>&copy; 2025 Mind Over Muscle. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
